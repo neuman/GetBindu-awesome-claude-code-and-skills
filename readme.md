@@ -1267,6 +1267,12 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [neuman/nopekit](https://github.com/neuman/nopekit) ![Stars](https://img.shields.io/github/stars/neuman/nopekit?style=flat-square)
+  - Claude Code plugin for designing physical things (CAD, 3D printing, thermal, structures)
+  - Turns requirements into claims and math/physics gates; every gate ships a negative control proving it can fail
+  - Packs for beam analysis, CAD solid/mesh checks, FDM print checks, fluids/buoyancy, thermal/solar, OpenModelica, and sourcing/BOM
+  - Zero-dependency Python core; Apache-2.0; install with `/plugin marketplace add neuman/nopekit` then `/plugin install nopekit`
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
